@@ -1,0 +1,40 @@
+.testimonial-section {
+  padding-top: var(--size-4xl);
+}
+
+.section-title {
+  text-align: center;
+  font-size: var(--size-3xl);
+  color: var(--clr-light);
+  margin-bottom: var(--size-3xl);
+}
+
+.testimonial-card {
+  background-color: var(--clr-slate800);
+  border: 1px solid var(--clr-slate600);
+  border-radius: var(--size-xs);
+  padding: var(--size-3xl);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.testimonial-quote {
+  margin: 0;
+  text-align: center;
+}
+
+.testimonial-quote p {
+  font-size: var(--size-lg);
+  color: var(--clr-slate400);
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.testimonial-quote cite {
+  display: block;
+  margin-top: var(--size-xl);
+  font-style: normal;
+  font-weight: bold;
+  color: var(--clr-indigo);
+}

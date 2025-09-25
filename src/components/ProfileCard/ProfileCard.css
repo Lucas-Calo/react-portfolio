@@ -1,0 +1,93 @@
+/* src/components/ProfileCard/ProfileCard.css */
+
+.profile-card {
+  background-color: var(--clr-slate800);
+  border: 1px solid var(--clr-slate600);
+  border-radius: var(--size-xs);
+  padding: var(--size-3xl);
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-2xl);
+  text-align: center;
+}
+
+/* Círculo da imagem de perfil*/
+.profile-image-wrapper {
+  padding: 0.25rem;
+  border-radius: 50%;
+  background: linear-gradient(to right, var(--clr-rose), var(--clr-indigo));
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-name {
+  font-size: var(--size-4xl);
+  color: var(--clr-light);
+}
+
+.profile-title {
+  font-size: var(--size-lg);
+  color: var(--clr-indigo);
+  font-weight: 500;
+}
+
+.profile-location {
+  display: flex;
+  align-items: center;
+  gap: var(--size-xs);
+  color: var(--clr-slate400);
+  margin-top: var(--size-xs);
+}
+
+.profile-description {
+  color: var(--clr-slate400);
+  max-width: 60ch;
+  margin: var(--size-lg) 0;
+}
+
+/* Links Sociais */
+.profile-social {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.profile-social-link {
+  color: var(--clr-slate400);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.profile-social-link:hover {
+  color: var(--clr-indigo);
+  transform: translateY(-3px);
+}
+
+/* responsividade */
+@media (min-width: 768px) {
+  .profile-content {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .profile-info {
+    align-items: flex-start;
+  }
+}
