@@ -34,7 +34,7 @@ const ProfileCard = () => {
               semestre de Análise e Desenvolvimento de Sistemas no Instituto
               INFNET, com grande interesse em iniciar minha carreira na área de
               desenvolvimento de software. Atualmente estudando Mobile-first UI
-              & Fundamentos de REACT 👨🏼‍💻 ⚡️
+              & REACT 👨🏼‍💻 ⚡️
             </p>
 
             {/* Links Github, Linkedin e e-mail*/}
