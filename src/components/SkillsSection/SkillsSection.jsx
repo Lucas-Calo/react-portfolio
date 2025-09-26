@@ -8,16 +8,16 @@ import { DiGit } from 'react-icons/di';
 
 const skills = [
   {
-    name: 'JavaScript',
-    icon: <IoLogoJavascript />,
-    color: '#F7DF1E',
-    score: 9
-  },
-  {
     name: 'HTML',
     icon: <IoLogoHtml5 />,
     color: '#E34F26',
     score: 10
+  },
+  {
+    name: 'JavaScript',
+    icon: <IoLogoJavascript />,
+    color: '#F7DF1E',
+    score: 9
   },
   {
     name: 'CSS',
