@@ -2,9 +2,9 @@ import React from "react";
 import "./ProjectCard.css";
 import { ArrowRight } from "lucide-react";
 
-const ProjectCard = ({ imageUrl, title, projectUrl }) => {
+const ProjectCard = ({ imageUrl, title, projectUrl, color }) => {
   return (
-    <div className="project-card">
+    <div className="project-card" style={{ '--project-color': color }}>
       <img
         src={imageUrl}
         alt={`Imagem do projeto ${title}`}

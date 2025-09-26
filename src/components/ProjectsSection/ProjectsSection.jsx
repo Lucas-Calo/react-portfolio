@@ -9,11 +9,13 @@ const projectsData = [
     title: "Meu Portfólio em HTML & CSS",
     imageUrl: projectImage1,
     projectUrl: "https://codesandbox.io/p/sandbox/at-portfolio-8hfp4d",
+    color: 'var(--clr-rose)'
   },
   {
     title: "Projeto de Bloco: LearnFlix",
     imageUrl: projectImage2,
     projectUrl: "https://github.com/Lucas-Calo/meu-projeto-de-bloco.git",
+    color: 'var(--clr-indigo)'
   },
 ];
 
