@@ -31,18 +31,19 @@ const skills = [
     color: '#61DAFB',
     score: 8
   },
+   {
+    name: 'GitHub',
+    icon: <IoLogoGithub />,
+    color: '#070a13',
+    score: 8
+  },
   {
     name: 'Git',
     icon: <DiGit />,
     color: '#F05032',
     score: 8
   },
-  {
-    name: 'GitHub',
-    icon: <IoLogoGithub />,
-    color: '#070a13',
-    score: 8
-  }
+ 
 ];
 
 const SkillsSection = () => {
